@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aji Febriyanti Agustin | HSSE Safety Officer</title>
+  <link rel="canonical" href="https://ajifebriyanti03-netizen.github.io/bio/">
+  <meta name="theme-color" content="#0a1f2e">
+  <meta name="description" content="Aji Febriyanti Agustin — HSSE | Safety Officer | Safetygirl | Authorized Gas Tester | Ahli K3 Umum BNSP">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <style>
+    body {
+      min-height: 100vh;
+      background: #0a1f2e;
+      background-image: 
+        linear-gradient(180deg, rgba(10,31,46,0.92) 0%, rgba(6,20,32,0.97) 100%),
+        url('https://images.unsplash.com/photo-1581094794329-c8112c4e5190?q=80&w=1920&auto=format&fit=crop');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+    }
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      background: 
+        radial-gradient(ellipse at 20% 20%, rgba(14,165,233,0.12) 0%, transparent 50%),
+        radial-gradient(ellipse at 80% 80%, rgba(34,211,238,0.08) 0%, transparent 50%);
+      pointer-events: none;
+      z-index: 0;
+    }
+    main { position: relative; z-index: 1; }
+    .glass {
+      background: rgba(8, 20, 35, 0.75);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border: 1px solid rgba(148, 163, 184, 0.18);
+    }
+    .tile {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      min-height: 88px;
+      border-radius: 16px;
+      background: rgba(8, 20, 35, 0.8);
+      border: 1px solid rgba(148, 163, 184, 0.2);
+      text-align: center;
+      padding: 10px 6px;
+      transition: all 0.25s ease;
+    }
+    .tile:hover {
+      border-color: rgba(34, 211, 238, 0.55);
+      transform: translateY(-3px);
+      background: rgba(14, 40, 60, 0.9);
+      box-shadow: 0 8px 20px rgba(14, 165, 233, 0.15);
+    }
+    .tile i {
+      font-size: 20px;
+      width: 38px;
+      height: 38px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 12px;
+    }
+    .tile span {
+      font-size: 11px;
+      line-height: 1.2;
+      color: #e2e8f0;
+    }
+    #slides {
+      display: flex;
+      transition: transform 0.5s ease;
+    }
+    #slides > * {
+      min-width: 100%;
+      flex-shrink: 0;
+    }
+    .chip {
+      display: inline-block;
+      font-size: 11px;
+      padding: 6px 12px;
+      border-radius: 999px;
+      background: rgba(8, 25, 40, 0.9);
+      border: 1px solid rgba(34, 211, 238, 0.28);
+      color: #e2e8f0;
+      margin: 3px;
+    }
+    .card-app {
+      background: rgba(8, 20, 35, 0.8);
+      border: 1px solid rgba(34, 211, 238, 0.22);
+      border-radius: 16px;
+      padding: 16px;
+      transition: all 0.25s ease;
+    }
+    .card-app:hover {
+      border-color: rgba(34, 211, 238, 0.5);
+      background: rgba(10, 30, 50, 0.9);
+    }
+    .slogan {
+      background: linear-gradient(90deg, #0ea5e9, #22d3ee, #67e8f9);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+  </style>
+</head>
+<body class="text-slate-100 antialiased">
+  <main class="max-w-md mx-auto px-4 py-8 pb-16">
+
+    <!-- Profile -->
+    <div class="flex flex-col items-center text-center mb-6">
+      <div class="w-28 h-28 rounded-full overflow-hidden border-4 border-cyan-400/70 shadow-xl shadow-cyan-500/25 mb-4 bg-slate-800">
+        <img src="https://ui-avatars.com/api/?name=Aji+Febriyanti&background=0e7490&color=fff&size=200&bold=true" 
+             alt="Aji Febriyanti Agustin" 
+             class="w-full h-full object-cover"
+             onerror="this.src='https://ui-avatars.com/api/?name=AFA&background=0e7490&color=fff&size=200'">
+      </div>
+      <h1 class="text-2xl font-bold tracking-tight">Aji Febriyanti Agustin</h1>
+      <p class="text-cyan-300 text-sm mt-1 font-medium">HSSE · Safety Officer · Safetygirl</p>
+      <p class="text-slate-400 text-xs mt-1">Authorized Gas Tester · Ahli K3 Umum BNSP</p>
+      <p class="slogan text-sm font-semibold mt-3">Budayakan K3: Safety First</p>
+      <p class="text-slate-400 text-xs">Bekerja Aman, Pulang Selamat</p>
+    </div>
+
+    <!-- QR Code -->
+    <div class="flex flex-col items-center mb-6">
+      <div class="bg-white p-3 rounded-2xl shadow-lg shadow-cyan-900/30">
+        <img id="qrImg" 
+             src="https://api.qrserver.com/v1/create-qr-code/?size=160x160&margin=8&data=https://ajifebriyanti03-netizen.github.io/bio/" 
+             alt="QR Code" 
+             class="w-36 h-36"
+             onerror="qrFallback(this)">
+      </div>
+      <p class="text-xs text-slate-400 mt-2">Scan ke Link-I</p>
+      <p id="qrHint" class="hidden text-xs text-amber-400 mt-1">QR gagal dimuat</p>
+    </div>
+
+    <!-- Slider -->
+    <div class="mb-6">
+      <p class="text-center text-[10px] uppercase tracking-widest text-cyan-400/90 mb-3 font-semibold">
+        Highlight · Sertifikasi & Pengalaman
+      </p>
+      <div id="slider" class="relative overflow-hidden rounded-2xl">
+        <div id="slides" class="flex">
+          <div class="px-1">
+            <div class="glass rounded-2xl p-5 text-center border border-cyan-500/30">
+              <span class="text-[10px] uppercase tracking-wider text-cyan-300 font-bold">BNSP</span>
+              <h3 class="text-lg font-bold mt-1">Authorized Gas Tester</h3>
+              <p class="text-sm text-slate-300 mt-2">Sertifikasi resmi BNSP. Berlaku hingga 2029. Kompetensi Confined Space & Gas Testing.</p>
+            </div>
+          </div>
+          <div class="px-1">
+            <div class="glass rounded-2xl p-5 text-center border border-emerald-500/30">
+              <span class="text-[10px] uppercase tracking-wider text-emerald-300 font-bold">BNSP</span>
+              <h3 class="text-lg font-bold mt-1">Ahli K3 Umum</h3>
+              <p class="text-sm text-slate-300 mt-2">Sertifikat Kompetensi BNSP. Pengalaman di Project Kilang Pertamina Balikpapan.</p>
+            </div>
+          </div>
+          <div class="px-1">
+            <div class="glass rounded-2xl p-5 text-center border border-violet-500/30">
+              <span class="text-[10px] uppercase tracking-wider text-violet-300 font-bold">Pengalaman</span>
+              <h3 class="text-lg font-bold mt-1">Safetygirl & Permit Holder</h3>
+              <p class="text-sm text-slate-300 mt-2">PT Swedan · PT Daeah E&C · PT Nindya Karya · PT Fajar Eka Youone</p>
+            </div>
+          </div>
+          <div class="px-1">
+            <div class="glass rounded-2xl p-5 text-center border border-amber-500/30">
+              <span class="text-[10px] uppercase tracking-wider text-amber-300 font-bold">Motto</span>
+              <h3 class="text-lg font-bold mt-1">Safety First</h3>
+              <p class="text-sm text-slate-300 mt-2">Bekerja Aman, Pulang Selamat. Budayakan K3 di setiap langkah.</p>
+            </div>
+          </div>
+        </div>
+        <button id="prevSlide" class="absolute left-2 top-1/2 -translate-y-1/2 w-8 h-8 rounded-full bg-slate-900/80 border border-slate-600 flex items-center justify-center text-slate-300 hover:bg-cyan-900/60">
+          <i class="fas fa-chevron-left text-xs"></i>
+        </button>
+        <button id="nextSlide" class="absolute right-2 top-1/2 -translate-y-1/2 w-8 h-8 rounded-full bg-slate-900/80 border border-slate-600 flex items-center justify-center text-slate-300 hover:bg-cyan-900/60">
+          <i class="fas fa-chevron-right text-xs"></i>
+        </button>
+      </div>
+      <div id="dots" class="flex justify-center gap-1.5 mt-3"></div>
+    </div>
+
+    <!-- Highlight Cards -->
+    <div class="mb-6 space-y-3">
+      <p class="text-center text-[10px] uppercase tracking-widest text-cyan-400/90 mb-2 font-semibold">Profil & Sertifikasi</p>
+      
+      <div class="card-app">
+        <div class="flex items-start gap-3">
+          <div class="w-10 h-10 rounded-xl bg-cyan-500/20 flex items-center justify-center flex-shrink-0">
+            <i class="fas fa-hard-hat text-cyan-300"></i>
+          </div>
+          <div>
+            <p class="text-[10px] uppercase tracking-wider text-cyan-400 font-semibold">Sertifikasi BNSP</p>
+            <h3 class="font-semibold">Authorized Gas Tester + Ahli K3 Umum</h3>
+            <p class="text-xs text-slate-400 mt-1">Confined Space · Gas Testing · K3 Umum</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-app">
+        <div class="flex items-start gap-3">
+          <div class="w-10 h-10 rounded-xl bg-emerald-500/20 flex items-center justify-center flex-shrink-0">
+            <i class="fas fa-briefcase text-emerald-300"></i>
+          </div>
+          <div>
+            <p class="text-[10px] uppercase tracking-wider text-emerald-400 font-semibold">Pengalaman Utama</p>
+            <h3 class="font-semibold">Project Kilang Pertamina Balikpapan</h3>
+            <p class="text-xs text-slate-400 mt-1">Safetygirl · Permit Holder · HSSE Documentation</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-app">
+        <div class="flex items-start gap-3">
+          <div class="w-10 h-10 rounded-xl bg-violet-500/20 flex items-center justify-center flex-shrink-0">
+            <i class="fas fa-shield-alt text-violet-300"></i>
+          </div>
+          <div>
+            <p class="text-[10px] uppercase tracking-wider text-violet-400 font-semibold">Budaya K3</p>
+            <h3 class="font-semibold">Safety First — Bekerja Aman, Pulang Selamat</h3>
+            <p class="text-xs text-slate-400 mt-1">APD · Pencegahan Jatuh · Prosedur Aman · Inspeksi · Tanggap Darurat</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Skills -->
+    <div class="mb-8">
+      <div class="glass rounded-2xl p-5 text-center">
+        <p class="text-[10px] uppercase tracking-widest text-cyan-400 mb-1 font-semibold">Keahlian</p>
+        <p class="text-xs text-slate-400 mb-3">HSSE · Dokumentasi · Lapangan · Administrasi</p>
+        <div class="flex flex-wrap justify-center">
+          <span class="chip">Safetygirl</span>
+          <span class="chip">Work Permit</span>
+          <span class="chip">HSSE Reporting</span>
+          <span class="chip">Authorized Gas Tester</span>
+          <span class="chip">Ahli K3 Umum</span>
+          <span class="chip">Confined Space</span>
+          <span class="chip">Microsoft Office</span>
+          <span class="chip">Dokumentasi K3</span>
+          <span class="chip">Pengawasan Lapangan</span>
+          <span class="chip">Admin GA</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Quick Links -->
+    <div class="mb-6">
+      <p class="text-center text-[10px] uppercase tracking-widest text-cyan-400/90 mb-3 font-semibold">Kontak & Link Cepat</p>
+      <nav class="grid grid-cols-4 gap-3">
+        <a class="tile" href="https://wa.me/6285386000632?text=Halo%20Aji%20Febriyanti" target="_blank" rel="noopener">
+          <i class="fab fa-whatsapp bg-emerald-500/20 text-emerald-300"></i>
+          <span>WhatsApp</span>
+        </a>
+        <a class="tile" href="mailto:ajifebriyanti23@gmail.com">
+          <i class="fas fa-envelope bg-slate-500/20 text-slate-200"></i>
+          <span>Email</span>
+        </a>
+        <a class="tile" href="https://instagram.com/adjieef_" target="_blank" rel="noopener">
+          <i class="fab fa-instagram bg-pink-500/20 text-pink-300"></i>
+          <span>Instagram</span>
+        </a>
+        <a class="tile" href="https://github.com/ajifebriyanti03-netizen" target="_blank" rel="noopener">
+          <i class="fab fa-github bg-slate-500/20 text-slate-200"></i>
+          <span>GitHub</span>
+        </a>
+        <a class="tile" href="https://github.com/ajifebriyanti03-netizen/bio" target="_blank" rel="noopener">
+          <i class="fas fa-user bg-cyan-500/20 text-cyan-300"></i>
+          <span>Profil</span>
+        </a>
+        <a class="tile" href="mailto:brieaji2307@gmail.com">
+          <i class="fas fa-at bg-blue-500/20 text-blue-300"></i>
+          <span>Email 2</span>
+        </a>
+        <a class="tile" href="https://wa.me/6285386000632" target="_blank" rel="noopener">
+          <i class="fas fa-phone bg-emerald-500/20 text-emerald-300"></i>
+          <span>Telepon</span>
+        </a>
+        <a class="tile" href="https://github.com/ajifebriyanti03-netizen/bio" target="_blank" rel="noopener">
+          <i class="fas fa-file-alt bg-amber-500/20 text-amber-300"></i>
+          <span>CV / Bio</span>
+        </a>
+      </nav>
+    </div>
+
+    <!-- Footer -->
+    <p class="text-center text-[10px] text-slate-500 mt-8">
+      © 2026 Aji Febriyanti Agustin · Samarinda, Kalimantan Timur<br>
+      <span class="text-cyan-600/80">Budayakan K3: Safety First</span>
+    </p>
+  </main>
+
+  <script>
+    var sl = document.getElementById('slides');
+    var n = sl ? sl.children.length : 0, i = 0, startX = 0;
+    function go(k) {
+      if (!n) return;
+      i = (k + n) % n;
+      sl.style.transform = 'translateX(' + (-i * 100) + '%)';
+      document.querySelectorAll('#dots button').forEach(function(b, x) {
+        b.className = 'w-2 h-2 rounded-full ' + (x === i ? 'bg-cyan-400' : 'bg-slate-500');
+      });
+    }
+    if (sl) {
+      var d = document.getElementById('dots');
+      for (var x = 0; x < n; x++) {
+        var b = document.createElement('button');
+        b.type = 'button';
+        (function(z) { b.onclick = function() { go(z); }; })(x);
+        d.appendChild(b);
+      }
+      document.getElementById('nextSlide').onclick = function() { go(i + 1); };
+      document.getElementById('prevSlide').onclick = function() { go(i - 1); };
+      setInterval(function() { go(i + 1); }, 4500);
+      var box = document.getElementById('slider');
+      box.addEventListener('touchstart', function(e) { startX = e.changedTouches[0].clientX; }, { passive: true });
+      box.addEventListener('touchend', function(e) {
+        var dx = e.changedTouches[0].clientX - startX;
+        if (dx > 40) go(i - 1);
+        if (dx < -40) go(i + 1);
+      }, { passive: true });
+      go(0);
+    }
+    function qrFallback(img) {
+      var url = encodeURIComponent('https://ajifebriyanti03-netizen.github.io/bio/');
+      var tries = [
+        'https://api.qrserver.com/v1/create-qr-code/?size=160x160&margin=6&data=' + url,
+        'https://quickchart.io/qr?size=160&margin=1&text=' + url
+      ];
+      var idx = Number(img.dataset.try || 0);
+      if (idx < tries.length) {
+        img.dataset.try = idx + 1;
+        img.src = tries[idx];
+        return;
+      }
+      img.style.display = 'none';
+      var hint = document.getElementById('qrHint');
+      if (hint) { hint.classList.remove('hidden'); hint.classList.add('block'); }
+    }
+  </script>
+</body>
+</html>
+```

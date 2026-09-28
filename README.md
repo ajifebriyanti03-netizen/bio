@@ -1,6 +1,6 @@
 # Aji Febriyanti Agustin
 
-**HSSE | Safety Officer | Administrator | Safetygirl**  
+**HSSE | Health, Safety, Environment | Administrator | Safetygirl**  
 📍 Samarinda, Kalimantan Timur, Indonesia
 
 ---
